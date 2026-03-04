@@ -21,7 +21,7 @@ Foundational infrastructure that gives autonomous systems the ability to perceiv
 | **Elephantasm** | [`elephantasm-core`](https://github.com/hejijunhao/elephantasm-core) | Long-term agentic memory and cognitive architecture. Turns stateless agents into agents that remember, learn, and become. Python \| PostgreSQL \| pgVector \| MIT |
 | **Photon** | [`photon`](https://github.com/hejijunhao/photon) | Pure image processing pipeline. Images in, structured AI-enriched data out. Zero-shot classification against 68,000+ terms. Rust \| ONNX \| MIT |
 | **Parsec** | [`parsec`](https://github.com/hejijunhao/parsec) | Infrastructure-aware AI agents. Connects any LLM to databases, codebases, and server logs through natural language. JavaScript \| Apache 2.0 |
-| **Lumber** | [`lumber`](https://github.com/hejijunhao/lumber) | High-performance log normalization. Raw logs from any provider, semantically classified and compacted for LLM consumption. Go \| ONNX \| Apache 2.0 |
+| **Lumber** | [`lumber`](https://github.com/kaminocorp/lumber) | High-performance log normalization. Raw logs from any provider, semantically classified and compacted for LLM consumption. Go \| ONNX \| Apache 2.0 |
 
 ### Tools
 
@@ -47,15 +47,15 @@ Operational systems that put frameworks to work — hosted platforms, execution 
 We publish our thinking openly. Selected work:
 
 - [Elephantasm Whitepaper](https://www.elephantasm.com/downloads/Elephantasm%20Whitepaper.pdf) — technical architecture for long-term agentic memory
-- [BeskarPrime](https://kamino.dev/research) — a 24/7 fully autonomous agent cluster performing continuous bug bounty hunting
-- [Journal](https://kamino.dev/research) — essays on agent memory, cognitive architecture, identity, and autonomous systems philosophy
+- [BeskarPrime](https://kaminocorp.com/research) — a 24/7 fully autonomous agent cluster performing continuous bug bounty hunting
+- [Journal](https://kaminocorp.com/research) — essays on agent memory, cognitive architecture, identity, and autonomous systems philosophy
 
 ---
 
 ## Links
 
-[kamino.dev](https://kamino.dev) ·
+[kaminocorp.com](https://kaminocorp.com) ·
 [Elephantasm Docs](https://elephantasm.com/docs) ·
 [Trajan Docs](https://trajancloud.com/docs) ·
-[News](https://kamino.dev/news) ·
-[Research](https://kamino.dev/research)
+[News](https://kaminocorp.com/news) ·
+[Research](https://kaminocorp.com/research)
