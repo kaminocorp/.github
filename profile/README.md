@@ -18,8 +18,8 @@ Foundational infrastructure that gives autonomous systems the ability to perceiv
 
 | | Repository | Description |
 |---|---|---|
-| **Elephantasm** | [`elephantasm-core`](https://github.com/hejijunhao/elephantasm-core) | Long-term agentic memory and cognitive architecture. Turns stateless agents into agents that remember, learn, and become. Python \| PostgreSQL \| pgVector \| MIT |
-| **Photon** | [`photon`](https://github.com/hejijunhao/photon) | Pure image processing pipeline. Images in, structured AI-enriched data out. Zero-shot classification against 68,000+ terms. Rust \| ONNX \| MIT |
+| **Elephantasm** | [`elephantasm-core`](https://github.com/kaminocorp/elephantasm-core) | Long-term agentic memory and cognitive architecture. Turns stateless agents into agents that remember, learn, and become. Python \| PostgreSQL \| pgVector \| MIT |
+| **Photon** | [`photon`](https://github.com/kaminocorp/photon) | Pure image processing pipeline. Images in, structured AI-enriched data out. Zero-shot classification against 68,000+ terms. Rust \| ONNX \| MIT |
 | **Parsec** | [`parsec`](https://github.com/hejijunhao/parsec) | Infrastructure-aware AI agents. Connects any LLM to databases, codebases, and server logs through natural language. JavaScript \| Apache 2.0 |
 | **Lumber** | [`lumber`](https://github.com/kaminocorp/lumber) | High-performance log normalization. Raw logs from any provider, semantically classified and compacted for LLM consumption. Go \| ONNX \| Apache 2.0 |
 
@@ -31,7 +31,7 @@ Operational systems that put frameworks to work — hosted platforms, execution 
 |---|---|---|
 | **[Elephantasm Cloud](https://elephantasm.com)** | Available | Managed memory and cognitive architecture as a service. The hosted version of Elephantasm — analogous to Supabase for autonomous systems. |
 | **[Trajan](https://trajancloud.com)** | Public Beta | Agent-first project execution. Autonomous documentation generation, commit-driven analytics, and a PM agent that reads your actual codebase. |
-| **Heimdall** | Coming Soon | Realtime production monitoring. Built on Parsec — link repositories, deployment platforms, and databases for agent-driven investigation. |
+| **[Heimdall](https://heimdallwatch.com)** | Private Alpha | Realtime production monitoring. Built on Parsec — link repositories, deployment platforms, and databases for agent-driven investigation. |
 | **Kessel** | Coming Soon | Data mining and image intelligence. Built on Photon — semantic processing, tagging, and synthetic data generation. |
 
 ### Applications
