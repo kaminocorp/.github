@@ -55,12 +55,13 @@ Apache 2.0. Photon is dual MIT / Apache 2.0.
 
 Public work that is not a product. No availability implied.
 
-| | |
-|---|---|
-| **[Chaos Tone](https://github.com/kaminocorp/chaos-tone)** | Offline, trainable music sketchbook. A creative companion that learns a style. |
-| **[Dreampad](https://github.com/kaminocorp/Dreampad)** | Open workspace: notes, project management, in-document agent. |
-| **[Cream](https://github.com/kaminocorp/cream)** | Payment control plane for agents — policy, routing, append-only audit. |
-| **[Corellia](https://github.com/kaminocorp/corellia)** / **[Spawnpoint](https://github.com/kaminocorp/spawnpoint)** | Agent-fleet control-plane experiments. Public code; no live surface. |
+**[Chaos Tone](https://github.com/kaminocorp/chaos-tone)** — offline, trainable music sketchbook. A creative companion that learns a style.
+
+**[Dreampad](https://github.com/kaminocorp/Dreampad)** — open workspace: notes, project management, in-document agent.
+
+**[Cream](https://github.com/kaminocorp/cream)** — payment control plane for agents. Policy, routing, append-only audit.
+
+**[Corellia](https://github.com/kaminocorp/corellia)** / **[Spawnpoint](https://github.com/kaminocorp/spawnpoint)** — agent-fleet control-plane experiments. Public code; no live surface.
 
 Earlier public engines for task intake, ADE sandboxes, and production watch remain in this org as historical artifacts. That work continues inside Hyperdrive — they are not separate products.
 
