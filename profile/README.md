@@ -1,61 +1,77 @@
 # Kamino Corporation
 
-**Infrastructure for autonomous systems.**
+**Closed-loop software engineering.**
 
-No AI system today is truly autonomous. They respond when prompted, forget when finished, and cannot improve themselves. We are building systems that can — self-perpetuating, self-evaluating, self-improving.
+A prompt is not autonomy. Most systems still answer, forget, and wait. We build the other kind: a factory that takes a signal through plan, build, deploy, monitor, and repair — then spends what it learned on the next pass.
 
-Our emblem is an angel carrying a lantern and a key — the search for light, and the conviction that the door can be opened. Most believe this problem is decades away. We believe it is an engineering problem, and we are working on it now.
+Our emblem is an angel carrying a lantern and a key: find the light; open the door. Seek truth above comfort. Create with reverence. Build to endure.
 
 ---
 
-## Ecosystem
+## Product
 
-Kamino operates as an ecosystem of interoperable frameworks, platforms, and applications built around agent-first design — systems that reason, act, and operate over time rather than responding passively to prompts.
+### [Hyperdrive](https://hyperdrive.kaminocorp.com)
 
-### Frameworks
+The Agent Development Environment — an autonomous software factory for engineering teams. One product, one shared context. The loop does not stop at the pull request.
 
-Foundational infrastructure that gives autonomous systems the ability to perceive, reason, remember, and operate.
+`signal → plan → build → deploy → monitor → repair`
 
-| | Repository | Description |
-|---|---|---|
-| **Elephantasm** | [`elephantasm-core`](https://github.com/kaminocorp/elephantasm-core) | Long-term agentic memory and cognitive architecture. Turns stateless agents into agents that remember, learn, and become. Python \| PostgreSQL \| pgVector \| MIT |
-| **Photon** | [`photon`](https://github.com/kaminocorp/photon) | Pure image processing pipeline. Images in, structured AI-enriched data out. Zero-shot classification against 68,000+ terms. Rust \| ONNX \| MIT |
-| **Parsec** | [`parsec`](https://github.com/hejijunhao/parsec) | Infrastructure-aware AI agents. Connects any LLM to databases, codebases, and server logs through natural language. JavaScript \| Apache 2.0 |
-| **Lumber** | [`lumber`](https://github.com/kaminocorp/lumber) | High-performance log normalization. Raw logs from any provider, semantically classified and compacted for LLM consumption. Go \| ONNX \| Apache 2.0 |
+Bring your own harness. Run it on your cloud or ours. Source is private; the product surface is public.
 
-### Tools
+**Private alpha** — invite only. Not a chat that forgets the system after the merge.
 
-Operational systems that put frameworks to work — hosted platforms, execution environments, and data infrastructure.
+[hyperdrive.kaminocorp.com](https://hyperdrive.kaminocorp.com) · [Docs](https://hyperdrive.kaminocorp.com/docs)
 
-| | Status | Description |
-|---|---|---|
-| **[Elephantasm Cloud](https://elephantasm.com)** | Available | Managed memory and cognitive architecture as a service. The hosted version of Elephantasm — analogous to Supabase for autonomous systems. |
-| **[Trajan](https://trajancloud.com)** | Public Beta | Agent-first project execution. Autonomous documentation generation, commit-driven analytics, and a PM agent that reads your actual codebase. |
-| **[Heimdall](https://heimdallwatch.com)** | Private Alpha | Realtime production monitoring. Built on Parsec — link repositories, deployment platforms, and databases for agent-driven investigation. |
-| **Kessel** | Coming Soon | Data mining and image intelligence. Built on Photon — semantic processing, tagging, and synthetic data generation. |
+---
 
-### Applications
+## Open infrastructure
 
-| | Status | Description |
-|---|---|---|
-| **[CorpoVault](https://corpovault.com)** | Available | Agentic corporate services and entity management. Autonomous systems applied to compliance, administration, and operational overhead. |
+Public primitives. Use them without us.
+
+**[Elephantasm](https://elephantasm.com)** — long-term agentic memory. Events become structured memory; memory becomes identity that survives the context window.  
+[`elephantasm-core`](https://github.com/kaminocorp/elephantasm-core) · [`elephantasm-py`](https://github.com/kaminocorp/elephantasm-py) · [`elephantasm-ts`](https://github.com/kaminocorp/elephantasm-ts) · [`elephantasm-mcp`](https://github.com/kaminocorp/elephantasm-mcp) · [docs](https://elephantasm.com/docs)
+
+**[Photon](https://github.com/kaminocorp/photon)** — visual perception pipeline in Rust. Images in; embeddings, tags, hashes, and metadata out. Runs locally.
+
+**[Parsec](https://github.com/kaminocorp/parsec)** — agent tooling for live system state: logs, databases, source.
+
+**[Lumber](https://github.com/kaminocorp/lumber)** — high-performance log normalization in Go. Raw provider logs → canonical events, on the machine.
+
+Apache 2.0. Photon is dual MIT / Apache 2.0.
 
 ---
 
 ## Research
 
-We publish our thinking openly. Selected work:
+**[OpenTheory](https://opentheory.vercel.app)** — agent-driven research with an append-only ledger of hypotheses, claims, and evidence. Dead ends stay in the record.  
+[`opentheory`](https://github.com/kaminocorp/opentheory) · [opentheory.vercel.app](https://opentheory.vercel.app)
 
-- [Elephantasm Whitepaper](https://www.elephantasm.com/downloads/Elephantasm%20Whitepaper.pdf) — technical architecture for long-term agentic memory
-- [BeskarPrime](https://kaminocorp.com/research) — a 24/7 fully autonomous agent cluster performing continuous bug bounty hunting
-- [Journal](https://kaminocorp.com/research) — essays on agent memory, cognitive architecture, identity, and autonomous systems philosophy
+- [Elephantasm whitepaper](https://www.elephantasm.com/downloads/Elephantasm%20Whitepaper.pdf) — architecture for long-term agentic memory
+- [Journal](https://kaminocorp.com/research) — notes on memory, identity, and systems that operate over time
+
+---
+
+## Lab
+
+Public work that is not a product. No availability implied.
+
+| | |
+|---|---|
+| **[Chaos Tone](https://github.com/kaminocorp/chaos-tone)** | Offline, trainable music sketchbook. A creative companion that learns a style. |
+| **[Dreampad](https://github.com/kaminocorp/Dreampad)** | Open workspace: notes, project management, in-document agent. |
+| **[Cream](https://github.com/kaminocorp/cream)** | Payment control plane for agents — policy, routing, append-only audit. |
+| **[Corellia](https://github.com/kaminocorp/corellia)** / **[Spawnpoint](https://github.com/kaminocorp/spawnpoint)** | Agent-fleet control-plane experiments. Public code; no live surface. |
+
+Earlier public engines for task intake, ADE sandboxes, and production watch remain in this org as historical artifacts. That work continues inside Hyperdrive — they are not separate products.
 
 ---
 
 ## Links
 
 [kaminocorp.com](https://kaminocorp.com) ·
-[Elephantasm Docs](https://elephantasm.com/docs) ·
-[Trajan Docs](https://trajancloud.com/docs) ·
+[Hyperdrive](https://hyperdrive.kaminocorp.com) ·
+[Elephantasm](https://elephantasm.com) ·
+[OpenTheory](https://opentheory.vercel.app) ·
 [News](https://kaminocorp.com/news) ·
-[Research](https://kaminocorp.com/research)
+[Research](https://kaminocorp.com/research) ·
+[contact@kaminocorp.com](mailto:contact@kaminocorp.com)
